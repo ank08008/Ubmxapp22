@@ -1,0 +1,8 @@
+applications:
+- name: Ubmxapp22
+  memory: 1G
+  instances: 1
+  path: Ubmxapp22.war
+  buildpack: https://github.com/ank08008/Ubmxapp22.git
+  stack: cflinuxfs2
+
